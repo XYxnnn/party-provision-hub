@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div {
+	box-sizing: border-box;
+}
+
+body {
+	background: lightgrey;
+}
+
+section {
+	width: 80%;
+	margin: 80px auto;
+}
+
+.row {
+	width: 90%;
+	margin-top: 3rem;
+  	display: flex;
+	align-items: center;
+}
+
+.login-form {
+	max-width: 362px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
